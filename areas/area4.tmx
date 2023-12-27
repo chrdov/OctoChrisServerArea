@@ -3,7 +3,7 @@
  <properties>
   <property name="Background" value="acdc"/>
   <property name="Name" value="RvrdaleArea4"/>
-  <property name="Song" value="/server/assets/MMBN5InternetGM.mid"/>
+  <property name="Song" value="/server/assets/MMBN5InternetGM.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/BBS.tsx"/>
  <tileset firstgid="3" source="../assets/tiles/cloud.tsx"/>
