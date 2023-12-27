@@ -64,91 +64,101 @@
   <object id="224" name="Warp to Net City" type="Server Warp" gid="5" x="223.75" y="608.25" width="61" height="32">
    <properties>
     <property name="Address" value="keristero.xyz"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="NetCity"/>
     <property name="Port" type="int" value="8766"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="225" name="Warp to Battle Network 3" type="Server Warp" gid="5" x="223.75" y="672.25" width="61" height="32">
    <properties>
     <property name="Address" value="159.223.165.219"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="BattleNet3"/>
     <property name="Port" type="int" value="3000"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="216" name="Warp to Gensou Network" type="Server Warp" gid="5" x="223.75" y="480.25" width="61" height="32">
    <properties>
     <property name="Address" value="159.223.165.219"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="GenouNet"/>
     <property name="Port" type="int" value="2500"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="217" name="Warp to Jukebox-jammin" type="Server Warp" gid="5" x="223.75" y="416.25" width="61" height="32">
    <properties>
     <property name="Address" value="159.223.165.219"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="Jukebox"/>
     <property name="Port" type="int" value="9500"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="218" name="Warp to Quetzen" type="Server Warp" gid="5" x="223.75" y="352.25" width="61" height="32">
    <properties>
     <property name="Address" value="159.223.165.219"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="Quetzen"/>
     <property name="Port" type="int" value="8000"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="219" name="Warp to Enzan's Homepage" type="Server Warp" gid="5" x="223.75" y="288.25" width="61" height="32">
    <properties>
     <property name="Address" value="85.215.186.121"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="EnzanHome"/>
     <property name="Port" type="int" value="5560"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="220" name="Warp to ceBIT Simulation" type="Server Warp" gid="5" x="223.75" y="224.25" width="61" height="32">
    <properties>
     <property name="Address" value="85.215.186.121"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="ceBIT"/>
     <property name="Port" type="int" value="9001"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="221" name="Warp to The Block" type="Server Warp" gid="5" x="223.75" y="160.25" width="61" height="32">
    <properties>
     <property name="Address" value="165.227.139.229"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="TheBlock"/>
     <property name="Port" type="int" value="8765"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="222" name="Warp to IPC Infoboard" type="Server Warp" gid="5" x="223.75" y="96.25" width="61" height="32">
    <properties>
     <property name="Address" value="85.215.186.121"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="IPCInfo"/>
     <property name="Port" type="int" value="8765"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="223" name="Warp to Gravy Yum" type="Server Warp" gid="5" x="223.75" y="32.25" width="61" height="32">
    <properties>
     <property name="Address" value="keristero.xyz"/>
-    <property name="Data" value=""/>
+    <property name="Data" value="RvrdaleArea"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value=""/>
+    <property name="Incoming Data" value="GravyYum"/>
     <property name="Port" type="int" value="8765"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
  </objectgroup>
