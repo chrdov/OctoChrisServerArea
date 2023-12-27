@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.10.2" orientation="isometric" renderorder="right-down" compressionlevel="0" width="15" height="15" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="24">
+ <properties>
+  <property name="Background" value="acdc"/>
+  <property name="Name" value="RvrdaleArea4"/>
+  <property name="Song" value="/server/assets/MMBN5InternetGM.mid"/>
+ </properties>
+ <tileset firstgid="1" source="../assets/tiles/BBS.tsx"/>
+ <tileset firstgid="3" source="../assets/tiles/cloud.tsx"/>
+ <tileset firstgid="15" source="../assets/tiles/coffee.tsx"/>
+ <tileset firstgid="19" source="../assets/tiles/floor.tsx"/>
+ <tileset firstgid="22" source="../assets/tiles/gate.tsx"/>
+ <tileset firstgid="27" source="../assets/tiles/home_warp.tsx"/>
+ <tileset firstgid="32" source="../assets/tiles/hp_warp.tsx"/>
+ <tileset firstgid="37" source="../assets/tiles/stairs.tsx"/>
+ <tileset firstgid="40" source="../assets/tiles/tree.tsx"/>
+ <tileset firstgid="44" source="../assets/tiles/warp.tsx"/>
+ <layer id="1" name="Floor" width="15" height="15">
+  <data encoding="csv">
+19,19,19,19,19,0,0,0,0,0,19,19,19,19,19,
+19,19,19,19,19,0,0,0,0,0,19,19,19,19,19,
+19,19,19,19,19,20,20,20,20,20,19,19,19,19,19,
+19,19,19,19,19,0,0,0,0,0,19,19,19,19,19,
+19,19,19,19,19,0,0,0,0,0,19,19,19,19,19,
+0,0,20,0,0,0,0,0,0,0,0,0,20,0,0,
+0,0,20,0,0,0,20,20,20,0,0,0,20,0,0,
+0,0,20,0,0,0,20,20,20,20,20,20,20,0,0,
+0,0,20,0,0,0,20,20,20,0,0,0,0,0,0,
+0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,
+19,19,19,19,19,0,0,0,0,0,19,19,19,19,19,
+19,19,19,19,19,0,0,0,0,0,19,19,19,19,19,
+19,19,19,19,19,20,20,20,20,20,19,19,19,19,19,
+19,19,19,19,19,0,0,0,0,0,19,19,19,19,19,
+19,19,19,19,19,0,0,0,0,0,19,19,19,19,19
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer">
+  <object id="1" gid="40" x="128" y="448" width="44" height="61"/>
+  <object id="2" gid="40" x="128" y="352" width="44" height="61"/>
+  <object id="4" gid="40" x="32" y="352" width="44" height="61"/>
+  <object id="6" gid="40" x="32" y="128" width="44" height="61"/>
+  <object id="7" gid="40" x="128" y="32" width="44" height="61"/>
+  <object id="8" gid="40" x="128" y="128" width="44" height="61"/>
+  <object id="10" gid="40" x="352" y="128" width="44" height="61"/>
+  <object id="11" gid="40" x="448" y="128" width="44" height="61"/>
+  <object id="13" gid="40" x="352" y="32" width="44" height="61"/>
+  <object id="15" gid="40" x="352" y="448" width="44" height="61"/>
+  <object id="16" gid="40" x="352" y="352" width="44" height="61"/>
+  <object id="17" gid="40" x="448" y="352" width="44" height="61"/>
+  <object id="18" name="Warp to Area3" type="Custom Warp" gid="45" x="223.25" y="224.75" width="61" height="32">
+   <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Target Area" value="area3"/>
+    <property name="Target Object" value="161"/>
+    <property name="Warp In" type="bool" value="true"/>
+    <property name="Warp Out" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="23" name="Warp to Area5" type="Custom Warp" gid="45" x="383.25" y="384.75" width="61" height="32">
+   <properties>
+    <property name="Direction" value="Up Left"/>
+    <property name="Target Area" value="area5"/>
+    <property name="Target Object" value="45"/>
+    <property name="Warp In" type="bool" value="true"/>
+    <property name="Warp Out" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="19" type="Spawn Point" x="208" y="208">
+   <properties>
+    <property name="Next Spawn" type="object" value="20"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" type="Spawn Point" x="272" y="208">
+   <properties>
+    <property name="Next Spawn" type="object" value="22"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" type="Spawn Point" x="208" y="272">
+   <properties>
+    <property name="Next Spawn" type="object" value="19"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" type="Spawn Point" x="272" y="272">
+   <properties>
+    <property name="Next Spawn" type="object" value="21"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
